@@ -6,6 +6,10 @@
   background-size: cover;
 }
 
+.navbar {
+  opacity: 0.8;
+}
+
 .center-msg h1 {
   left: 20% !important;
   position: relative;
