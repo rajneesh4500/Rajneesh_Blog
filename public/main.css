@@ -1,0 +1,31 @@
+.bg {
+  background-image: url(83464957f372f01b0d892135a3cbc2f1.jpg);
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center-msg h1 {
+  left: 20% !important;
+  position: relative;
+  font-weight: strong;
+}
+
+.center-msg {
+  position: absolute;
+  height: 80px;
+  width: 600px;
+  border-radius: 0.985rem;
+  border: black solid 0.5rem;
+  opacity: 0.5;
+  background-color: antiquewhite;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
