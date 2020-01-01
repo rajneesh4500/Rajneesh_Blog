@@ -1,4 +1,5 @@
 import React from "react";
+import NavBar from "./NavBar";
 //
 //
 //
@@ -9,7 +10,7 @@ import React from "react";
 const MainApp = () => {
   return (
     <div>
-      <h1>Main content here</h1>
+      <NavBar />
     </div>
   );
 };
