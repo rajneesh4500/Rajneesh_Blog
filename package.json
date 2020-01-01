@@ -2,9 +2,6 @@
   "name": "gitblogproj",
   "version": "1.0.0",
   "homepage": "http://github.io/v-rajneesh/Rajneesh_Blog",
-=======
-  "homepage": "http://github.io/v-rajneesh/",
->>>>>>> 472630b13f7d9cff822d6d7153ed5ed74d0586b2
   "main": "index.js",
   "author": "Rajneesh",
   "license": "MIT",
