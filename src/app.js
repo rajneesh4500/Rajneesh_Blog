@@ -3,13 +3,9 @@ import ReactDOM from "react-dom";
 import "./css/general.css";
 import Welcomemsg from "./components/WelcomeMsg";
 import MainApp from "./components/Application";
+import { Router } from "react-router-dom";
+import AppRouter from "./Router/Router";
 
-//
-//
-//
-//
-//
-//
 class App extends Component {
   state = {
     showWelcome: true
@@ -20,7 +16,7 @@ class App extends Component {
     }, 5000);
   }
   render() {
-    return <div>{this.state.showWelcome ? <Welcomemsg /> : <MainApp />}</div>;
+    return <div>{this.state.showWelcome ? <Welcomemsg /> : <AppRouter />}</div>;
   }
 }
 

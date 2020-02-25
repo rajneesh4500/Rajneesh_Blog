@@ -7,6 +7,7 @@ import {
   FormControl,
   Button
 } from "react-bootstrap";
+import { Link } from "react-router-dom";
 //
 //
 //
@@ -21,9 +22,13 @@ const NavBar = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link>Home</Nav.Link>
+          <Link to="/" className="nav-link">
+            Home
+          </Link>
           <Nav.Link>Repositories</Nav.Link>
-          <Nav.Link>Blog</Nav.Link>
+          <Link to="/Blog" className="nav-link">
+            Blog
+          </Link>
         </Nav>
         <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />

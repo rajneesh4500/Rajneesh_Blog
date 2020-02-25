@@ -6,6 +6,21 @@
   background-size: cover;
 }
 
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+.article-data {
+  background-color: white;
+  margin-top: 0.9rem;
+  width: 840px;
+  margin-left: 25rem;
+
+  padding: 10px;
+}
+
 .content p {
   color: rgba(0, 0, 0, 0.9) !important;
   opacity: 1 !important;
