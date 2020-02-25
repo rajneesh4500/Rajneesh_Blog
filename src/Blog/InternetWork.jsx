@@ -11,7 +11,7 @@ const blog1 = {
       A: `Every device which can connect to internet has an address associated with it called the IP address. 
             This is a unique address and is of the format nnn.nnn.nnn.nnn where n ranges from 0-255. 
             This format is IPv4 and can support around 4 billion unique addresses. IP can be assigned by the ISP provider or it can have a permanent IP if connected over LAN or it may obtain a temporary IP over DHCP. IP is a connectionless protocol, meaning it is a form of data transmission in which the signal goes out even without determining if the receiver is ready to receive the signal or not,
-            it does not care if the signals are interpreted or even reaches the destination. `
+            it does not care if the signals are interpreted or even reaches the destination.`
     },
     {
       Q: "How is an IP address Resolved?",
